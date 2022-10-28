@@ -5,7 +5,7 @@ function DataFetc1() {
     const [rowData, setRowData]= useState([])
 
   useEffect(() => {
-    var apiurl="http://localhost:4000/getsdates";
+    var apiurl="http://localhost:4000/yes";
     axios
       .get(apiurl)
       .then((response) => response.data)

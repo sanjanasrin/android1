@@ -10,7 +10,7 @@ function Calender1() {
  console.log(date)
 axios.post("http://localhost:4000/posts",{
      date
-  }).then((res)=> console.log(res.data))
+  }).then((res)=> res.data)
  
  
 return (

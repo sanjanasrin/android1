@@ -5,6 +5,7 @@ import './rap.css';
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
+import DataFetc1 from './dataFetc';
 
 am4core.useTheme(am4themes_animated);
 
@@ -58,3 +59,4 @@ class App3 extends Component {
 }
 
 export default App3
+
